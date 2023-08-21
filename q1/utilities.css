@@ -1,0 +1,25 @@
+.flex-prop{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-fstart{
+    justify-content: flex-start;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.a-fstart{
+    align-items: flex-start;
+}

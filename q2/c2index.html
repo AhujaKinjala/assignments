@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="books">
+        <h2>Featured Books</h2>
+        <article>
+            <h3>Book Title 1</h3>
+            <p>Author: Author Name</p>
+            <img src="book1.jpg" alt="Book Cover">
+        </article>
+        <article>
+            <h3>Book Title 2</h3>
+            <p>Author: Author Name</p>
+            <img src="book2.jpg" alt="Book Cover">
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:contact@bookstore.com">contact@bookstore.com</a></p>
+    </section>
+
+    <section>
+        <h2>Book Catalog</h2>
+        <table>
+            <caption>Books Catalog</caption>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Book Title 1</td>
+                <td>Author Name</td>
+                <td rowspan="2">Fiction</td>
+            </tr>
+            <tr>
+                <td>Illustrator Name</td>
+            </tr>
+            <tr>
+                <td colspan="3">Book Title 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        &copy; 2023 Our Bookstore
+    </footer>
+</body>
+</html>

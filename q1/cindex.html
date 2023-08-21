@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Example</title>
+</head>
+<body>
+  <h1>Basic Details form</h1>
+  <br>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Contact Information</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br><br>
+    
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="4" cols="50"></textarea>
+      <br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Options</legend>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+
+      <label for="hobbies">Hobbies:</label>
+      <input type="checkbox" id="hiking" name="hobbies" value="hiking">
+      <label for="hiking">Hiking</label>
+      <input type="checkbox" id="reading" name="hobbies" value="reading">
+      <label for="reading">Reading</label>
+      <input type="checkbox" id="programming" name="hobbies" value="reading">
+      <label for="Programming">Programming</label><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Describe Yourself</legend>
+      <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Preferences</legend>
+      <label for="color">Favorite Color:</label>
+      <select id="color" name="color">
+        <optgroup label="Warm Colors">
+          <option value="red">Red</option>
+          <option value="orange">Orange</option>
+          <option value="yellow">Yellow</option>
+        </optgroup>
+        <optgroup label="Cool Colors">
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="purple">Purple</option>
+        </optgroup>
+      </select><br>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">General Button</button>
+  </form>
+</body>
+</html>
